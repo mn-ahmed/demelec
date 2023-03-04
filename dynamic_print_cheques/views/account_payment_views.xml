@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="normal_payments_check_inherit_form_view" model="ir.ui.view">
+            <field name="name">account.payments.form</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='print_checks']" position="replace">
+                    <button name="print_checks" class="oe_highlight" icon="fa-print" attrs="{'invisible': ['|', '|', ('payment_method_code', '!=', 'check_printing'), ('state', 'not in', 'posted'), ('is_move_sent', '=', True)]}" string="Print Check" type="object"/>
+                </xpath>
+                <xpath expr="//field[@name='date']" position="before">
+                    <field name="cr_date" attrs="{'invisible': ['|', ('payment_method_code', '!=', 'check_printing'), ('is_move_sent', '=', True)],'readonly': [('state', '!=', 'draft')]}"/>
+                </xpath>
+                <xpath expr="//field[@name='date']" position="attributes">
+                    <attribute name="string">Date de payment</attribute>
+                </xpath>
+                <xpath expr="//group[@name='group2']" position="inside">
+                    <field name="cheque_format_id" attrs="{'invisible': ['|', ('payment_method_code', '!=', 'check_printing'), ('is_move_sent', '=', True)]}"/>
+                    <field name="recipient_name" attrs="{'invisible': ['|', ('payment_method_code', '!=', 'check_printing'), ('is_move_sent', '=', True)]}"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="dynamic_print_cheque_view_tree" model="ir.ui.view">
+            <field name="name">dynamic.print.cheque.treeview</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_tree"/>
+            <field name="arch" type="xml">
+<!--                <xpath expr="//field[@name='date']" position="before">-->
+<!--                    <field name="cr_date"/>-->
+<!--                </xpath>-->
+                <xpath expr="//field[@name='date']" position="attributes">
+                    <attribute name="string">Date de payment</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="cheque_configuration_form_view" model="ir.ui.view">
+            <field name="name">cheque.configuration.form.view</field>
+            <field name="model">exchange.configuration</field>
+            <field name="arch" type="xml">
+                <form string="Configuration de lettre de change">
+                    <sheet>
+                        <field name="printer_img" nolabel="1"
+                               class="oe_avatar" img_width="120"
+                               img_height="120" width="120" height="120"
+                               widget="image"/>
+                        <div class="oe_title">
+                            <div class="oe_edit_only">
+                                <label for="name"/>
+                            </div>
+                            <h1>
+                                <field name="name" placeholder="Imprimante .." nolabel="1"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group string="Font Size">
+                                <field name="font_size"/>
+                            </group>
+                            <group string="Line 4">
+                                <field name="text_amount_top"/>
+                                <field name="text_amount_left"/>
+                            </group>
+                            <group string="Line 1">
+                                <field name="due_date_1_top" />
+                                <field name="due_date_1_left"/>
+                                 <field name="location_1_top" />
+                                <field name="location_1_left"/>
+                                <field name="date_1_top"/>
+                                <field name="date_1_left"/>
+                            </group>
+                            <group string="Line 3">
+                                <field name="recipient_top"/>
+                                <field name="recipient_left"/>
+                                <field name="amount_2_top"/>
+                                <field name="amount_2_left"/>
+                            </group>
+                            <group string="Line 2">
+                                <field name="bnk_1_top"/>
+                                <field name="bnk_1_left"/>
+                                <field name="aga_1_top"/>
+                                <field name="aga_1_left"/>
+                                <field name="compt_1_top"/>
+                                <field name="compt_1_left"/>
+                                <field name="cle_1_top"/>
+                                <field name="cle_1_left"/>
+                                <field name="amount_1_top"/>
+                                <field name="amount_1_left"/>
+                            </group>
+                            <group string="Line 6">
+                                  <field name="bnk_2_top"/>
+                                <field name="bnk_2_left"/>
+                                <field name="aga_2_top"/>
+                                <field name="aga_2_left"/>
+                                <field name="compt_2_top"/>
+                                <field name="compt_2_left"/>
+                                <field name="cle_2_top"/>
+                                <field name="cle_2_left"/>
+                                <field name="bank_top"/>
+                                <field name="bank_left"/>
+                            </group>
+                            <group string="Line 5">
+                                <field name="location_top"/>
+                                <field name="location_left"/>
+                                <field name="date_2_top"/>
+                                <field name="date_2_left"/>
+                                 <field name="due_date_2_top" />
+                                <field name="due_date_2_left"/>
+                            </group>
+                            <group string="Line 7 -8">
+                                <field name="payed_top"/>
+                                <field name="payed_left"/>
+                                <field name="payed_address_top"/>
+                                <field name="payed_address_left"/>
+                            </group>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="cheque_configuration_tree_view" model="ir.ui.view">
+            <field name="name">cheque.configuration.tree.view</field>
+            <field name="model">exchange.configuration</field>
+            <field name="arch" type="xml">
+                <tree string="Configuration de lettre de change">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="exchange_configuration_action_view" model="ir.actions.act_window">
+            <field name="name">Configuration de lettre de change</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">exchange.configuration</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+                <menuitem id="exchange_configuration_main_menu" name="Lettre de change" parent="account.menu_finance_configuration"
+                  sequence="70"/>
+        <menuitem
+                id="cheque_configuration_menu"
+                name="Configuration de lettre de change"
+                parent="exchange_configuration_main_menu"
+                action="exchange_configuration_action_view"
+        />
+    </data>
+</odoo>

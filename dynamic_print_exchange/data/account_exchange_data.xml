@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="account_payment_method_exchange_outbound" model="account.payment.method">
+            <field name="name">Exchange</field>
+            <field name="code">exchange</field>
+            <field name="payment_type">outbound</field>
+        </record>
+
+         <record id="account_payment_method_exchange_inbound" model="account.payment.method">
+            <field name="name">Exchange</field>
+            <field name="code">exchange</field>
+            <field name="payment_type">inbound</field>
+        </record>
+
+        <!-- Exchange Printer Configuration -->
+
+        <record model="exchange.configuration" id="canon_g_3411">
+            <field name="name">Canon G3411</field>
+            <field name="printer_img" type="base64" file="dynamic_print_exchange/static/src/img/canon_g3411.png"/>
+            <!-- Font size -->
+            <field name="font_size">18</field>
+
+            <!-- Line 1 -->
+             <field name="due_date_1_top">60</field>
+            <field name="due_date_1_left">330</field>
+            <field name="location_1_top">45</field>
+            <field name="location_1_left">500</field>
+            <field name="date_1_top">60</field>
+            <field name="date_1_left">500</field>
+
+            <!-- Line 2 -->
+            <field name="bnk_1_top">107</field>
+            <field name="bnk_1_left">320</field>
+            <field name="aga_1_top">107</field>
+            <field name="aga_1_left">365</field>
+            <field name="compt_1_top">107</field>
+            <field name="compt_1_left">425</field>
+            <field name="cle_1_top">107</field>
+            <field name="cle_1_left">620</field>
+            <field name="amount_1_top">105</field>
+            <field name="amount_1_left">710</field>
+            <!-- Line 3 -->
+            <field name="recipient_top">185</field>
+            <field name="recipient_left">330</field>
+            <field name="amount_2_top">182</field>
+            <field name="amount_2_left">710</field>
+            <!-- Line 4 -->
+            <field name="text_amount_top">215</field>
+            <field name="text_amount_left">110</field>
+            <!-- Line 5 -->
+            <field name="location_top">262</field>
+            <field name="location_left">100</field>
+            <field name="date_2_top">262</field>
+            <field name="date_2_left">230</field>
+            <field name="due_date_2_top">262</field>
+            <field name="due_date_2_left">355</field>
+            <!-- Line 6 -->
+            <field name="bnk_2_top">317</field>
+            <field name="bnk_2_left">100</field>
+            <field name="aga_2_top">317</field>
+            <field name="aga_2_left">135</field>
+            <field name="compt_2_top">317</field>
+            <field name="compt_2_left">215</field>
+            <field name="cle_2_top">317</field>
+            <field name="cle_2_left">410</field>
+            <field name="bank_top">330</field>
+            <field name="bank_left">710</field>
+            <!-- Line 7 - 8 -->
+            <field name="payed_top">340</field>
+            <field name="payed_left">470</field>
+            <field name="payed_address_top">370</field>
+            <field name="payed_address_left">430</field>
+    </record>
+
+        <record model="exchange.configuration" id="brother_j_140w">
+            <field name="name">Brother J-140W</field>
+            <field name="printer_img" type="base64" file="dynamic_print_exchange/static/src/img/brother_j140w.png"/>
+            <!-- Font size -->
+            <field name="font_size">18</field>
+            <!-- Line 1 -->
+            <field name="due_date_1_top">67</field>
+            <field name="due_date_1_left">310</field>
+            <field name="location_1_top">45</field>
+            <field name="location_1_left">480</field>
+            <field name="date_1_top">67</field>
+            <field name="date_1_left">480</field>
+            <!-- Line 2 -->
+            <field name="bnk_1_top">110</field>
+            <field name="bnk_1_left">310</field>
+            <field name="aga_1_top">110</field>
+            <field name="aga_1_left">355</field>
+            <field name="compt_1_top">110</field>
+            <field name="compt_1_left">420</field>
+            <field name="cle_1_top">110</field>
+            <field name="cle_1_left">603</field>
+            <field name="amount_1_top">110</field>
+            <field name="amount_1_left">710</field>
+            <!-- Line 3 -->
+            <field name="recipient_top">188</field>
+            <field name="recipient_left">320</field>
+            <field name="amount_2_top">185</field>
+            <field name="amount_2_left">710</field>
+            <!-- Line 4 -->
+            <field name="text_amount_top">220</field>
+            <field name="text_amount_left">85</field>
+            <!-- Line 5 -->
+            <field name="location_top">265</field>
+            <field name="location_left">90</field>
+            <field name="date_2_top">265</field>
+            <field name="date_2_left">215</field>
+            <field name="due_date_2_top">265</field>
+            <field name="due_date_2_left">340</field>
+            <!-- Line 6 -->
+            <field name="bnk_2_top">320</field>
+            <field name="bnk_2_left">90</field>
+            <field name="aga_2_top">320</field>
+            <field name="aga_2_left">125</field>
+            <field name="compt_2_top">320</field>
+            <field name="compt_2_left">210</field>
+            <field name="cle_2_top">320</field>
+            <field name="cle_2_left">390</field>
+            <field name="bank_top">330</field>
+            <field name="bank_left">710</field>
+            <!-- Line 7 - 8 -->
+            <field name="payed_top">340</field>
+            <field name="payed_left">440</field>
+            <field name="payed_address_top">370</field>
+            <field name="payed_address_left">410</field>
+    </record>
+    </data>
+</odoo>

@@ -1,0 +1,479 @@
+id,code,name,account_type,chart_template_id/id,reconcile
+account101000,101000,Capital social,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account101100,101100,Capital souscrit - non appele,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account101200,101200,Capital souscrit - appele  non verse,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account101310,101310,Capital non amorti,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account101320,101320,Capital amorti,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account101800,101800,Capital souscrit soumis a une reglementation particuliere,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account105000,105000,Fonds de dotation,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account108000,108000,Compte de l'exploitant,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account109000,109000,Actionnaires  capital souscrit - non appele,Equity,l10n_tn_account.l10n_tn_chart_template,FALSE
+account111000,111000,Reserve legale,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account112000,112000,Reserves statutaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account117100,117100,Primes d'emission,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account117200,117200,Primes de fusion,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account117300,117300,Primes d'apport,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account117400,117400,Primes de conversion d'obligation,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account117800,117800,Autres complements d'apport,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account118100,118100,Reserves pour fonds social,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account119000,119000,Avoirs des actionnaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account121000,121000,Resultats reportes,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account128000,128000,Modifications comptables affectant les resultats reportes,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account131000,131000,Resultat beneficiaire,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account135000,135000,Resultat deficitaire,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account141000,141000,Titres soumis a des reglementations particulieres,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account142100,142100,Reserves indisponibles,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account143000,143000,Amortissements derogatoires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account144000,144000,Reserve speciale de reevaluation,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account145100,145100,Subventions d'investissement,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account145800,145800,Autres subventions d'investissement,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account145900,145900,Subventions d'investissement inscrites aux comptes de resultat,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account147000,147000,Compte du concedant,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151100,151100,Provisions pour litiges,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151200,151200,Provisions pour garanties donnees aux clients,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151300,151300,Provisions pour pertes sur marches a achevement futur,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151400,151400,Provisions pour amendes et penalites,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151500,151500,Provisions pour pertes de change,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account151800,151800,Autres provisions pour risques,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account152200,152200,Provisions pour grosses reparations,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account153000,153000,Provisions pour retraites et obligations similaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account154000,154000,Provisions d'origine reglementaire,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account155000,155000,Provisions pour impots,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account156000,156000,Provisions pour renouvellement des immobilisations,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account157000,157000,Provisions pour amortissement,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account158000,158000,Autres provisions pour charges,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account161100,161100,Emprunts obligataires convertibles en actions,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account161800,161800,Autres emprunts obligataires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account162100,162100,Emprunts bancaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account162600,162600,Refinancements acquis,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account163000,163000,Emprunts aupres d'autres etablissements financiers (assorties de suretes),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account164100,164100,Avances bloquees pour augmentation du capital,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account164200,164200,Avances recues et comptes courants des associes bloques,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account164400,164400,Avances conditionnees de l'Etat et organismes internationaux,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account165000,165000,Emprunts non assorties de suretes (a subdiviser selon l'ordre des comptes des emprunts),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account166100,166100,Dettes rattachees a des participations (groupe),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account166200,166200,Dettes rattachees a des participations (hors groupe),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account166300,166300,Dettes rattachees a des societes en participation,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account167000,167000,Depots et cautionnements recus,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account168100,168100,Autres emprunts,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account168500,168500,Credit fournisseurs d'immobilisations,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account168800,168800,Autres dettes non courantes,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account171000,171000,Comptes des liaison des etablissements,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account176000,176000,Biens et prestations de services echanges entre etablissements (charges),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account177000,177000,Biens et prestations de services echanges entre etablissements (produits),Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account185000,185000,Ecarts de conversion,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account188000,188000,Autres,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account211000,211000,Investissements de recherche et de developpement,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account212000,212000,Concessions de marques  brevets  licences  marques  procedes et valeurs similaires,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account213000,213000,Logiciels,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account214000,214000,Fonds commercial,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account216000,216000,Droit au bail,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account218000,218000,Autres immobilisations incorporelles,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account221300,221300,Terrains nus,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account221400,221400,Terrains amenages,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account221500,221500,Terrains bâtis,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account221600,221600,Agencements et amenagements des terrains,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account222100,222100,Bâtiments,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account222500,222500,Installations generales  agencements et amenagements des constructions,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account222600,222600,Ouvrages d'infrastructure,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account222700,222700,Constructions sur sol d'autrui,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account223100,223100,Installations techniques,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account223400,223400,Materiel industriel,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account223500,223500,Outillage industriel,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account223700,223700,Agencements et amenagements du materiel et outillage industriels,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account224100,224100,Materiel de transport de biens,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account224400,224400,Materiel de transport de personnes,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account228100,228100,Installations generales  agencements et amenagements divers,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account228200,228200,Equipement de bureau,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account228600,228600,Emballages recuperables identifiables,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account231000,231000,Immobilisations incorporelles en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account232000,232000,Immobilisations corporelles en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account237000,237000,Avances et acomptes verses sur immobilisations incorporelles,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account238000,238000,Avances et acomptes verses sur commandes d'immobilisations corporelles,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account240000,240000,Immobilisations a statut juridique particulier,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account251100,251100,Actions,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account251800,251800,Autres titres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account256000,256000,Autres formes de participation,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account257100,257100,Creances rattachees a des participations (groupe),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account257400,257400,Creances rattachees a des participations (hors groupe),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account257500,257500,Versements representatifs d'apports non capitalises (appel de fonds),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account257600,257600,Avances consolidables,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account257700,257700,Autres creances rattachees a des participations,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account258000,258000,Creances rattachees a des societes en participation,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account259000,259000,Versements restant a effectuer sur titres de participation non liberes,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account261000,261000,Autres titres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account261100,261100,Actions,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account262100,262100,Obligations,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account262200,262200,Bons,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account264100,264100,Prets participatifs,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account264200,264200,Prets aux associes,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account264300,264300,Prets au personnel,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account264500,264500,Prets assortis de suretes (a subdiviser),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account264800,264800,Autres prets,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account265100,265100,Depots,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account265500,265500,Cautionnements,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account265600,265600,Depots bancaires non courants,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account265800,265800,Autres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account266100,266100,Creances immobilisees,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account266700,266700,Creances diverses,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account266800,266800,Autres creances non courantes,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account269000,269000,Versements restant a effectuer sur titres immobilises non liberes,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account271000,271000,Frais preliminaires,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account272000,272000,Charges a repartir,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account273000,273000,Frais d'emission et primes de remboursement des emprunts,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account275000,275000,ecarts de conversion,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account278000,278000,Autres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account281000,281000,Amortissements des immobilisations incorporelles (meme ventilation que celle du compte 21),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account282000,282000,Amortissements des immobilisations corporelles (meme ventilation que celle du compte 22),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account284000,284000,Amortissements des immobilisations a statut juridique particulier,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account290000,290000,Provisions pour depreciation des immobilisations incorporelles (meme ventilation que celle du compte 21),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account291000,291000,Provisions pour depreciation des immobilisations corporelles (meme ventilation que celle du compte 22),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account293000,293000,Provisions pour depreciation des immobilisations en cours (meme ventilation que celle du compte 23),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account294000,294000,Provisions pour depreciation des immobilisations a statut juridique particulier,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account295000,295000,Provisions pour depreciation des participations et des creances liees a des participations (meme ventilation que celle du compte,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account296000,296000,Provisions pour depreciation des autres immobilisations financieres (meme ventilation que celle du compte 26),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account311000,311000,Matieres premieres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account313000,313000,Fournitures,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account317000,317000,Autres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account321000,321000,Matieres consommables,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account322000,322000,Fournitures consommables,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account326000,326000,Emballages,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account327000,327000,Autres,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account331000,331000,Produits en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account335000,335000,Travaux en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account341000,341000,etudes en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account345000,345000,Prestations de services en cours,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account351000,351000,Produits intermediaires,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account355000,355000,Produits finis,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account357000,357000,Produits residuels,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account370000,370000,Stocks de marchandises,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account390000,390000,Provisions pour depreciation des stocks (a ventiler selon la nomenclature de cette classe),Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account401100,401100,Fournisseurs - Achats de biens et prestations de services,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account401700,401700,Fournisseurs - retenues de garantie,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account403000,403000,Fournisseurs d'exploitation  - Effets a payer,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account404100,404100,Fournisseurs - achats d'immobilisations,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account404700,404700,Fournisseurs d'immobilisations - retenues de garantie,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account405000,405000,Fournisseurs d'immobilisations - effets a payer,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account408100,408100,Fournisseurs d'exploitation,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account408400,408400,Fournisseurs d'immobilisations,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account408800,408800,Fournisseurs - interets courus,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account409100,409100,Fournisseurs - avances et acomptes verses sur commandes,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account409600,409600,Fournisseurs - creances pour emballages et materiel a rendre,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account409710,409710,Fournisseurs d'exploitation,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account409740,409740,Fournisseurs d'immobilisations,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account409800,409800,Rabais  remises  ristournes a obtenir et autres avoirs non encore recus,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account411100,411100,Clients - Ventes de biens ou de prestations de services,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account411700,411700,Clients - retenues de garantie,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account413000,413000,Clients - effets a recevoir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account416000,416000,Clients douteux ou litigieux,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account417000,417000,Creances sur travaux non encore facturables,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account418100,418100,Factures a etablir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account418800,418800,Interets courus,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account419100,419100,Clients - avances et acomptes recus sur commandes,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account419600,419600,Clients - dettes pour emballages et materiel consignes,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account419700,419700,Clients - autres avoirs,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account419800,419800,Rabais  remises  ristournes a accorder et autres avoirs a etablir,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account421000,421000,Personnel - avances et acomptes,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account422000,422000,Comites d'entreprises et autres organes representatifs du personnel,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account423000,423000,Personnel  oeuvres sociales,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account425000,425000,Personnel - remunerations dues,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account426000,426000,Personnel - depots,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account427000,427000,Personnel - oppositions,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account428200,428200,Dettes provisionnees pour conges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account428600,428600,Autres charges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account428700,428700,Produits a recevoir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account431000,431000,Etat - subventions a recevoir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account432000,432000,Etat  Impots et taxes retenus a la source,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account433000,433000,Operations particulieres avec l'Etat  les collectivites publiques  les organismes internationaux,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account434100,434100,Retenue a la source,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account434200,434200,Acomptes provisionnels,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account434300,434300,Impot a liquider,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account434900,434900,Impots differes,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account435000,435000,Obligations cautionnees,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account436510,436510,TVA sur autres biens et services,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account436580,436580,Autres taxes sur le chiffre d'affaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account436620,436620,TVA sur immobilisations 29%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436621,436621,TVA sur immobilisations 19%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436622,436622,TVA sur immobilisations 13%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436623,436623,TVA sur immobilisations 7%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436630,436630,TVA transferee par d'autres entreprises,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436660,436660,TVA sur autres biens et services 29%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436661,436661,TVA sur autres biens et services 19%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436662,436662,TVA sur autres biens et services 13%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436663,436663,TVA sur autres biens et services 7%,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436670,436670,Credit de TVA a reporter,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436680,436680,Autres taxes sur le chiffre d'affaires,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367110,4367110,TVA collectee sur les debits 29%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367111,4367111,TVA collectee sur les debits 19%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367112,4367112,TVA collectee sur les debits 13%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367113,4367113,TVA collectee sur les debits 7%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367120,4367120,TVA collectee sur les encaissements 29%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367121,4367121,TVA collectee sur les encaissements 19%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367122,4367122,TVA collectee sur les encaissements 13%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account4367123,4367123,TVA collectee sur les encaissements 7%,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436780,436780,Autres taxes sur le chiffre d'affaires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account436800,436800,Taxes sur le chiffre d'affaires a regulariser ou en attente,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account437000,437000,Autres impots  taxes et versements assimiles,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account437100,437100,Droit de timbre collecté,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account438200,438200,Charges fiscales sur conges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account438600,438600,Autres charges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account438700,438700,Produits a recevoir,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account441100,441100,Creances et interets courus,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account441200,441200,Dettes et interets a payer,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account442100,442100,Principal,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account442800,442800,Interets courus,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account446000,446000,Associes - operations sur le capital,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account447000,447000,Associes - dividendes a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account448100,448100,Operations courantes,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account448800,448800,Interets courus,Payable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account452000,452000,Creances sur cessions d'immobilisations,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account453110,453110,CNSS,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account453180,453180,Autres,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account453820,453820,Charges sociales sur conges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account453870,453870,Produits a recevoir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account454000,454000,Dettes sur acquisitions de valeurs mobilieres de placement,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account455000,455000,Creances sur cessions de valeurs mobilieres de placement,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account457000,457000,Autres comptes debiteurs ou crediteurs,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account458600,458600,Charges a payer,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account458700,458700,Produits a recevoir,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account461000,461000,Compte d'attente,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account465200,465200,Differences de conversion passif,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account468000,468000,Autres comptes transitoires,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,FALSE
+account471000,471000,Charges constatees d'avance,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account472000,472000,Produits constates d'avance,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account478600,478600,Charges,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account478700,478700,Produits,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account480000,480000,Provisions courantes pour risques et charges,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account490000,490000,Provisions pour depreciation des comptes de tiers,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account491000,491000,Provisions pour depreciation des comptes clients,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account494000,494000,Provisions pour depreciation des comptes de groupe et associes,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account494100,494100,Comptes du groupe,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account494200,494200,Comptes courants des associes,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account494800,494800,Operations faites en commun,Current Liabilities,l10n_tn_account.l10n_tn_chart_template,TRUE
+account495000,495000,Provisions pour depreciation des comptes de debiteurs divers,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account495200,495200,Creances sur cession d'immobilisation,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account495500,495500,Creances sur cession des valeurs mobilieres de placement,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account495700,495700,Autres comptes debiteurs,Receivable,l10n_tn_account.l10n_tn_chart_template,TRUE
+account501000,501000,Emprunts courants lies au cycle d'exploitation,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account505000,505000,echeances a moins d'un an sur emprunts non courants,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account506100,506100,Credit de mobilisation de creances commerciales,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account506300,506300,Mobilisation de creances nees a l'etranger,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account506700,506700,Autres concours bancaires,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account507000,507000,Emprunts echus et impayes,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account508000,508000,Interets courus (a subdiviser selon la meme ventilation que le compte 50),Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account511000,511000,Prets courants lies au cycle d'exploitation,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account516000,516000,echeances a moins d'un an sur prets non courants,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account517000,517000,echeances a moins d'un an sur autres creances financieres,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account518000,518000,Interets courus,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account523100,523100,Titres cotes,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account523500,523500,Titres non cotes,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account524000,524000,Autres titres conferant un droit de propriete,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account525000,525000,Obligations et bons emis par la societe et rachetes par elle,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account526100,526100,Titres cotes,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account526500,526500,Titres non cotes,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account526600,526600,echeances a moins d'un an sur les obligations immobilisees,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account527000,527000,Bons du tresor et bons de caisse a court terme,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account528100,528100,Autres valeurs mobilières,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account528800,528800,Interets courus sur obligations  bons et valeurs assimilees,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account529000,529000,Versements restant a effectuer sur valeurs mobilieres de placement non liberees,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account531100,531100,Coupons echus a l'encaissement,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account531200,531200,Cheques a encaisser,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account531300,531300,Effets à l'encaissement,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account531400,531400,Effets a l'escompte,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account532101,532101,Bank Suspense Account,Current Assets,l10n_tn_account.l10n_tn_chart_template,FALSE
+account532102,532102,Outstanding Receipts,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account532103,532103,Outstanding Payments,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account532104,532104,Bank,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account532400,532400,Comptes en devises,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account534000,534000,CCP,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account535000,535000,Comptes au tresor,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account537000,537000,Autres organismes financiers,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account541100,541100,Caisse en dinars,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account541101,541101,Cash,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account541400,541400,Caisse en devises,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account542000,542000,Caisses succursales,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account550000,550000,Regies d'avances et accreditifs,Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account580000,580000,Virements internes,Current Assets,l10n_tn_account.l10n_tn_chart_template,TRUE
+account590000,590000,Provisions pour depreciation des comptes financiers (Meme ventilation que les comptes de la classe 5),Bank and Cash,l10n_tn_account.l10n_tn_chart_template,FALSE
+account601000,601000,Achats stockes - Matieres premieres et fournitures liees,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account602100,602100,Matieres consommables,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account602200,602200,Fournitures consommables,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account602600,602600,Emballages,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account603100,603100,Variation des stocks de matieres premieres (et fournitures),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account603200,603200,Variation des stocks des autres approvisionnements,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account603700,603700,Variation des stocks de marchandises,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account604000,604000,Achats d'etudes et de prestations de services (y compris achat de sous-traitance de production),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account605000,605000,Achats de materiel  equipements et travaux,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account606000,606000,Achats non stockes de matieres et fournitures,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account607000,607000,Achats de marchandises,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account608000,608000,Achats lies a une modification comptable a prendre en compte dans le resultat de l'exercice ou a une activite abandonnee,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account609800,609800,Lies a une modification comptable a prendre en compte dans le resultat de l'exercice ou a une activite abandonnee,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account611000,611000,Sous-traitance generale,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account612000,612000,Redevances pour utilisation d'immobilisations concedees,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account613000,613000,Locations (y compris malis sur emballages),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account614000,614000,Charges locatives et de copropriete,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account615000,615000,Entretien et reparations,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account616000,616000,Primes d'assurances,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account617000,617000,etudes  recherches et divers services exterieurs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account618000,618000,Autres charges liees a une modification comptable a prendre en compte dans le resultat de l'exercice ou a une activite abandonne,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account619000,619000,Rabais  remises et ristournes obtenus sur services exterieurs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account621000,621000,Personnel exterieur a l'entreprise,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account622000,622000,Remuneration d'intermediaires et honoraires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account623000,623000,Publicite  publications  relations publiques,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account624100,624100,Transports sur achats,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account624200,624200,Transports sur ventes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account624400,624400,Transports administratifs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account624700,624700,Transports collectifs du personnel,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account624800,624800,Divers,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account625100,625100,Voyages et deplacements,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account625500,625500,Frais de demenagement,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account625600,625600,Missions,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account625700,625700,Receptions,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account626000,626000,Frais postaux et frais de telecommunications,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account627100,627100,Frais sur titres (achats  vente  garde),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account627200,627200,Commissions et frais sur emission d'emprunts,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account627500,627500,Frais sur effets,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account627600,627600,Location de coffres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account627800,627800,Autres frais et commissions sur prestations de services,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account628000,628000,Autres services exterieurs lies a une modification comptable a prendre en compte dans le resultat de l'exercice ou a une activit,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account629000,629000,Rabais  remises et ristournes obtenus sur autres services exterieurs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account631000,631000,Redevances pour concessions de marques  brevets  licences  procedes  droits et valeurs similaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account633000,633000,Jetons de presence,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account634100,634100,Creances de l'exercice,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account634400,634400,Creances des exercices anterieurs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account635100,635100,Quote-part de benefice transferee (comptabilite du gerant),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account635500,635500,Quote-part de perte supportee (comptabilite des associes non gerants),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account636000,636000,Charges nettes sur cessions d'immobilisations et autres pertes sur elements non recurrents ou exceptionnels,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account637000,637000,Reduction de valeur,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account638000,638000,Charges diverses ordinaires liees a une modification comptable a prendre en compte dans le resultat de l'exercice ou a une activ,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640000,640000,Salaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640100,640100,Heures supplementaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640200,640200,Primes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640300,640300,Gratifications,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640400,640400,Avantages en nature,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account640900,640900,Autres complements de salaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642000,642000,Appointements,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642100,642100,Heures supplementaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642200,642200,Primes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642300,642300,Gratifications,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642400,642400,Avantages en nature,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account642900,642900,Autres compléments d'appointements.,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account643000,643000,Indemnites representatives de frais,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account644000,644000,Commissions sur achats,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account644100,644100,Commissions sur ventes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account645000,645000,Remunerations des administrateurs  gerants et associes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646020,646020,Indemnites de preavis et de licenciements (gratification de fin de service),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646040,646040,Supplement familial,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646200,646200,Conges payes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646220,646220,Indemnites de preavis et de licenciement (gratification de fin de service),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646240,646240,Supplement familial,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646400,646400,Conges payes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646420,646420,Indemnites de preavis et de licenciement (gratification de fin de service),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646440,646440,Supplement familial,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646500,646500,Conges payes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646520,646520,Indemnites de preavis et de licenciement,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account646540,646540,Supplement familial,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account647000,647000,Cotisations de securite sociale sur salaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account647200,647200,Cotisations de securite sociale sur appointements,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account647400,647400,Cotisations de securite sociale sur commissions,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account647500,647500,Cotisations de securite sociale sur remunerations des administrateurs et gerants,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account647600,647600,Prestations directes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account648000,648000,Charges de personnel liees a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account649000,649000,Autres charges de personnel,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account649500,649500,Au tres charges sociales,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651160,651160,Des emprunts et dettes assimilees,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651170,651170,Des dettes rattachees a des participations,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651500,651500,Interets des comptes courants et des depots crediteurs,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651600,651600,Interets bancaires et sur operations de financement,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651700,651700,Interets des obligations cautionnees,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account651800,651800,Interets des autres dettes (y compris les penalites et interets de retard sur emprunts),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account653000,653000,Pertes sur creances liees a des participations,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account654000,654000,Escomptes accordes,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account655000,655000,Pertes de change,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account656000,656000,Charges nettes sur cessions de valeurs mobilieres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account657000,657000,Autres charges financieres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account658000,658000,Charges financieres liees a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account661100,661100,TFP,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account661200,661200,FOPROLOS,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account661800,661800,Autres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account665100,665100,Impots et taxes divers (sauf impots sur les benefices),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account665200,665200,Taxes sur le chiffre d'affaires non recuperables,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account665400,665400,Droits d'enregistrement et de timbre,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account665500,665500,Taxes sur les vehicules,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account665800,665800,Autres droits,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account668000,668000,Impots et taxes lies a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account670000,670000,Pertes extraordinaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681110,681110,Immobilisations incorporelles,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681120,681120,Immobilisations corporelles,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681200,681200,Dotations aux resorptions des charges reportees,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681500,681500,Dotations aux provisions pour risques et charges d'exploitation,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681610,681610,Immobilisations incorporelles,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681620,681620,Immobilisations corporelles,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681730,681730,Stocks et en-cours,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681740,681740,Creances,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account681800,681800,Dotations aux amortissements et aux provisions liees a une modification comptable a imputer au resultat de l'exercice ou a une a,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account686100,686100,Dotations aux amortissements des primes de remboursement des obligations,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account686500,686500,Dotations aux provisions pour risques et charges financieres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account686620,686620,Immobilisations financieres,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account686650,686650,Placements et prets courants,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account686800,686800,Dotations aux amortissements et aux provisions liees a une modification comptable inscrite dans le resultat de l'exercice ou a u,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account691000,691000,Impots sur les benefices calcules sur le resultat des activites ordinaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account695000,695000,Autres impots sur les benefices (regimes particuliers),Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account697000,697000,Impots sur les benefices calcules sur les elements extraordinaires,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account701100,701100,Produits finis acheves,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account701200,701200,Produits finis non acheves (contrat de longue duree),Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account702000,702000,Ventes de produits intermediaires,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account703000,703000,Ventes de produits residuels,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account704000,704000,Travaux,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account705000,705000,etudes et prestations de services,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account706000,706000,Produits des activites annexes,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account707100,707100,Ventes de marchandises,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account708000,708000,Ventes liees a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709100,709100,Sur ventes de produits finis,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709200,709200,Sur ventes de produits intermediaires,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709400,709400,Sur travaux,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709500,709500,Sur etudes et prestations de services,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709600,709600,Sur activites annexes,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709700,709700,Sur ventes de marchandises,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account709800,709800,Sur ventes liees a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account713300,713300,Variations des en-cours de production de biens,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account713400,713400,Variation des en-cours de production de services,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account713500,713500,Variation des stocks de produits,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account721000,721000,Immobilisations incorporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account722000,722000,Immobilisations corporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account728000,728000,Production immobilisee liee a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account731000,731000,Redevances pour concessions  brevets  licences  marques  procedes  droits et valeurs similaires,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account732000,732000,Revenus des immeubles non affectes aux activites professionnelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account733000,733000,Jetons de presence et remunerations d'administrateurs  gerants,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account734000,734000,Ristournes percues des cooperatives (provenant des excedents),Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account735000,735000,Quotes-parts de resultat sur operations faites en commun,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account736000,736000,Produits nets sur cessions d'immobilisations et autres gains sur elements non recurrents ou exceptionnels,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account738000,738000,Produits divers ordinaires lies a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account739000,739000,Quotes-parts des subventions d'investissement inscrites au resultat de l'exercice,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account740000,740000,Subventions d'exploitation et d'equilibre,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account745000,745000,Subventions d'equilibre,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account748000,748000,Subventions liees a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account751000,751000,Produits des participations,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account752000,752000,Produits des autres immobilisations financieres,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account753000,753000,Revenus des autres creances,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account754000,754000,Revenus des valeurs mobilieres de placement,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account755000,755000,Escomptes obtenus,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account756000,756000,Gains de change,Other Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account757000,757000,Produits nets sur cessions de valeurs mobilieres,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account758000,758000,Produits financiers lies a une modification comptable a imputer au resultat de l'exercice ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account770000,770000,Gains extraordinaires,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781110,781110,Immobilisations incorporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781120,781120,Immobilisations corporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781500,781500,Reprises sur provisions pour risques et charges d'exploitation,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781610,781610,Immobilisations incorporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781620,781620,Immobilisations corporelles,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781730,781730,Stocks et en-cours,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781740,781740,Creances,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account781800,781800,Reprises sur provisions liees a une modification comptable inscrite aux resultats ou a une activite abandonnee,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account786500,786500,Reprises sur provisions pour risque et charges financieres,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account786600,786600,Reprises sur provisions pour depreciation des elements financiers,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account786800,786800,Reprises sur provisions (a inscrire dans les produits financiers) liees a une modification comptable inscrite aux resultats de o,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account790000,790000,Transferts de charges (A ventiler en fonction des comptes ou ont ete imputees les charges a transferer),Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account999001,999001,Cash Difference Loss,Expenses,l10n_tn_account.l10n_tn_chart_template,FALSE
+account999002,999002,Cash Difference Gain,Income,l10n_tn_account.l10n_tn_chart_template,FALSE
+account999999,999999,Undistributed Profits/Losses,Current Year Earnings,l10n_tn_account.l10n_tn_chart_template,FALSE

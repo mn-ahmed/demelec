@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="paperformat_cheque_no_margin" model="report.paperformat">
+            <field name="name">Cheque A4 without borders</field>
+            <field name="default" eval="False"/>
+            <field name="format">A4</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">2</field>
+            <field name="margin_bottom">0</field>
+            <field name="margin_left">0</field>
+            <field name="margin_right">0</field>
+            <field name="header_line" eval="False"/>
+            <field name="header_spacing">0</field>
+        </record>
+
+        <report
+                id="report_cheque"
+                model="account.payment"
+                string=" Print Cheques"
+                name="dynamic_print_cheques.report_cheque_pdf_view"
+                file="dynamic_print_cheques.report_cheque_pdf_view"
+                report_type="qweb-pdf"
+                menu="False"
+                paperformat="paperformat_cheque_no_margin"
+        />
+
+        <template id="report_cheque_pdf_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="line">
+                    <div class="page">
+                        <style>
+                    .rotate {
+                        -webkit-transform: rotate(-45deg);
+                        -moz-transform: rotate(-45deg);
+                        -ms-transform: rotate(-45deg);
+                        -o-transform: rotate(-45deg);
+                        border-top:1px solid black;
+                        border-bottom:1px solid black;
+                    }
+                </style>
+                        <t t-if="line.is_acc_pay">
+                            <div t-attf-style="margin-left:#{line.cheque_format_id.acc_pay_margin_left}px;margin-top:#{line.cheque_format_id.acc_pay_margin_top}px;position: absolute;};">
+                                <div class='rotate text-center' style="width:60px;font-size:12px;color:#ffffff">
+                                     -
+                                </div>
+                            </div>
+                        </t>
+
+                        <t t-set="counter" t-value="0"/>
+                           <div style="position:relative;width:100%;text-align:center;z-index:1000;">
+                                <t t-raw="line.cheque_format_id.get_html_style()"/>
+                                <t t-raw="line.cheque_format_id.get_html_amount(str('#'+'%.3f'%(line.amount))+' '+line.currency_id.name)"/>
+                                <t t-raw="line.cheque_format_id.get_html_text_amount_1(line.amount_in_words_1)"/>
+                                <t t-raw="line.cheque_format_id.get_html_text_amount_2(line.amount_in_words_2)"/>
+                               <t t-raw="line.cheque_format_id.get_html_recipient(line.recipient_name)"/>
+                                <t t-raw="line.cheque_format_id.get_html_date(line.date)"/>
+                            </div>
+                    </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
