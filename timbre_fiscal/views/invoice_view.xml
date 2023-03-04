@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="account_move_form_inherit_for_tf" model="ir.ui.view">
+            <field name="name">timbre.account_move.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                 <xpath expr="//field[@name='narration']" position="before">
+                <field name="in_words" string="In Words"/>
+            </xpath>
+                <xpath expr="//field[@name='tax_totals']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='tax_totals']" position="after">
+                    <field name="amount_untaxed"/>
+                    <field name="tva"/>
+                    <field name="timbre" attrs="{'invisible':[('timbre','=',0)]}"/>
+                    <field name="amount_total"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

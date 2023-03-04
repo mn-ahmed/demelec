@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="account_payment_method_rs_outbound" model="account.payment.method">
+            <field name="name">RS</field>
+            <field name="code">rs</field>
+            <field name="payment_type">outbound</field>
+        </record>
+
+        <record id="account_payment_method_rs_inbound" model="account.payment.method">
+            <field name="name">RS</field>
+            <field name="code">rs</field>
+            <field name="payment_type">inbound</field>
+        </record>
+
+    </data>
+</odoo>

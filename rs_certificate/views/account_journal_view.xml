@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Inherit Form View to Modify it -->
+    <record id="view_account_journal_form_inherit_rs" model="ir.ui.view">
+        <field name="name">account.journal.rs</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='type']" position="after">
+                <field name="rs_rate"/>
+                <label for="rate" attrs="{'invisible': [('rs_rate', '=', False)]}"/>
+                <div attrs="{'invisible': [('rs_rate', '=', False)]}">
+                    <field name="rate" class="oe_inline" placeholder="ex. 1 pour 1%" nolabel="1"/>
+                    <span class="o_form_label oe_inline">%</span>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

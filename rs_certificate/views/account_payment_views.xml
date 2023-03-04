@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="view_account_payment_rs_form_inherited" model="ir.ui.view">
+            <field name="name">account.payment.form.inherited</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_post']" position="before">
+                    <button name="rs_print" ass="oe_highlight" icon="fa-print"
+                            attrs="{'invisible': ['|',('payment_method_code', '!=', 'rs'), ('state', '=', 'cancel')]}" string="Print RS" type="object"/>
+                </xpath>
+                <xpath expr="//label[@for='amount']" position="before">
+                    <label for="total" attrs="{'invisible': [('payment_method_code', '!=', 'rs')]}"/>
+                    <div name="amount_div" class="o_row" attrs="{'invisible': [('payment_method_code', '!=', 'rs')]}">
+                        <field name="net" invisible="1"/>
+                        <field name="total" string="Montant à payer" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                        <field name="currency_id" options="{'no_create': True, 'no_open': True}" required="1" attrs="{'readonly': [('state', '!=', 'draft')]}" groups="base.group_multi_currency"/>
+                    </div>
+                    <label for="rate" attrs="{'invisible': [('payment_method_code', '!=', 'rs')]}"/>
+                    <div attrs="{'invisible': [('payment_method_code', '!=', 'rs')]}">
+                        <field name="rate" class="oe_inline" nolabel="1"/>
+                        <span class="o_form_label oe_inline">%</span>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='amount']" position="attributes">
+                    <attribute name="string">Retenue </attribute>
+                </xpath>
+                <xpath expr="//field[@name='destination_journal_id']" position="after">
+                    <field name="signature" widget="signature" attrs="{'invisible': [('payment_method_code', '!=', 'rs')]}" groups="base.group_no_one"/>
+                </xpath>
+            </field>
+        </record>
+</odoo>

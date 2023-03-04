@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="paperformat_rs_no_margin" model="report.paperformat">
+            <field name="name">Exchange A4 without borders</field>
+            <field name="default" eval="False"/>
+            <field name="format">A4</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">2</field>
+            <field name="margin_bottom">0</field>
+            <field name="margin_left">10</field>
+            <field name="margin_right">10</field>
+            <field name="header_line" eval="False"/>
+            <field name="header_spacing">0</field>
+    </record>
+
+
+    <template id="report_rs_print_document">
+        <t t-call="web.html_container">
+            <t t-set="o" t-value="o.with_context(lang=lang)"/>
+            <div class="page">
+                <div class="row" style="font-size:18px};">
+                    <!-- Header -->
+                    <div t-attf-style="margin-left:50px;margin-top:25px;position: absolute;">
+                        <table class="table table-sm" style="page-break-inside: avoid;width:300px;border:none;">
+                            <tr style="border:none;">
+                                <td class="text-center" style="border:none;">
+                                    <div>REPUBLIQUE TUNISIENNE MINISTERE DU PLAN ET DES FINANCES DIRECTION GENERALE
+                                        DU CONTROLE FISCAL</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div t-attf-style="margin-left:420px;margin-top:65px;position: absolute;">
+                        <table class="table table-sm" style="page-break-inside: avoid;width:500px;">
+                            <tr>
+                                <td class="text-center" style="border:none;">
+                                    <span>CERTIFICAT DE RETENUE D'IMPOT SUR LE REVENU OU D'IMPOT SUR LES SOCIETES</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div t-attf-style="margin-left:580px;margin-top:170px;position: absolute;">
+                        <div class="text-right " style="font-size:18px">
+                            Retenue effectuée le: <span t-field="o.date"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="table table-sm" style="margin-top:220px;position: absolute;border: 1px solid black;">
+                        <div style="">
+                            <div style="padding:10px">
+                                <strong>A - PERSONNE OU ORGANISME PAYEUR</strong>
+                            </div>
+                            <t t-if="o.payment_type=='outbound'">
+                                <div style="text-align:right;padding-right:25px;">
+                                    <strong>Matricule Fiscal:<span t-field="o.company_id.vat"/></strong>
+                                </div>
+                                <div style="padding:10px">
+                                    Denomination de la personne ou de l'organisme payeur: <span style="font-weight: bold;"><t t-esc="o.company_id.name"/></span>
+                                </div>
+                                <div style="padding:10px">
+                                    <strong>
+                                        Adresse: <span t-field="o.company_id.street"/>
+                                        , <span t-field="o.company_id.street2"/>
+                                        <span t-field="o.company_id.city"/>
+                                        - <span t-field="o.company_id.zip"/>
+                                        - <span t-field="o.company_id.state_id.name"/>
+                                    </strong>
+                                </div>
+                            </t>
+                             <t t-if="o.payment_type=='inbound'">
+                                <div style="text-align:right;padding-right:25px;">
+                                    <strong>Matricule Fiscal:<span t-field="o.partner_id.vat"/></strong>
+                                </div>
+                                <div style="padding:10px">
+                                    Denomination de la personne ou de l'organisme payeur: <span style="font-weight: bold;"><t t-esc="o.partner_id.name"/></span>
+                                </div>
+                                <div style="padding:10px">
+                                    <strong>
+                                         Adresse: <span t-field="o.partner_id.street"/>
+                                        , <span t-field="o.partner_id.street2"/>
+                                        <span t-field="o.partner_id.city"/>
+                                        - <span t-field="o.partner_id.zip"/>
+                                        - <span t-field="o.partner_id.state_id.name"/>
+                                    </strong>
+                                </div>
+                            </t>
+                            <br/>
+                            <table class="table table-bordered" style="page-break-inside: avoid;border: solid 1px black; border-collapse: collapse;">
+<!--                        <table class="table table-sm" style="position: absolute;border: 1px solid black;">-->
+                                <tbody style="padding:10px">
+                                    <tr>
+                                        <th style="padding-left:10px;width:60%;border:solid 1px; border-collapse: collapse;">B - RETENUES EFFECTUEES SUR:</th>
+                                        <th class="text-center" style="width:13%;border:solid 1px; border-collapse: collapse;">Montant brut</th>
+                                        <th class="text-center" style="width:10%;border:solid 1px; border-collapse: collapse;">Retenue</th>
+                                        <th class="text-center" style="width:12%;border:solid 1px; border-collapse: collapse;">Montant net</th>
+                                    </tr>
+                                    <tr>
+                                    <td style="border:solid 1px; border-collapse: collapse;">Plus-value réalisée par les sociétés non résidentes et non établies en Tunisie: suite à la cession des titres et droits y relatifs, avec un maximum de 5% du prix de cession. 15%</td>
+                                        <t t-if="o.rate == 15">
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right"><span t-field="o.total"/> </td>
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right"><span t-field="o.amount" /></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right"><span t-field="o.net"/></td>
+                                        </t>
+                                        <t t-if="o.rate != 15">
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                        </t>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:solid 1px; border-collapse: collapse;">Plus-value réalisée par les sociétés non résidentes et non établies en Tunisie: suite à la cession des biens immobiliers. (base = prix de cession) 10%</td>
+                                        <t t-if="o.rate == 10">
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right" rowspan="3"><span t-field="o.total"/> </td>
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right" rowspan="3"><span t-field="o.amount" /></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;vertical-align: middle !important;" class="text-right" rowspan="3"><span t-field="o.net"/></td>
+                                        </t>
+                                        <t t-if="o.rate != 10">
+                                            <td style="border:solid 1px; border-collapse: collapse;" rowspan="3"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" rowspan="3"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" rowspan="3"></td>
+                                        </t>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:solid 1px; border-collapse: collapse;">Honoraires, commissions, courtages, vacations et loyers… 10% </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:solid 1px; border-collapse: collapse;">Commissions payées pour les sociétés de commerce international. 10%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:solid 1px; border-collapse: collapse;">Honoraires servis aux personnes soumises au régime réel. 3%</td>
+                                        <t t-if="o.rate == 3">
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.total"/> </td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.amount" /></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.net"/></td>
+                                        </t>
+                                        <t t-if="o.rate != 3">
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                        </t>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:solid 1px; border-collapse: collapse;">Retenue à lza source au titre des acquisitions de marchandises. 1%</td>
+                                        <t t-if="o.rate == 1">
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.total"/> </td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.amount" /></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;" class="text-right"><span t-field="o.net"/></td>
+                                        </t>
+                                        <t t-if="o.rate != 1">
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                            <td style="border:solid 1px; border-collapse: collapse;"></td>
+                                        </t>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right" style="border:solid 1px; border-collapse: collapse;">Total Général</td>
+                                        <td class="text-right" style="border:solid 1px; border-collapse: collapse;"><span t-field="o.total"/> </td>
+                                        <td class="text-right" style="border:solid 1px; border-collapse: collapse;"><span t-field="o.amount" /></td>
+                                        <td class="text-right" style="border:solid 1px; border-collapse: collapse;"><span t-field="o.net"/> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div style="padding:10px">
+                                <strong>C - BENEFICIAIRE</strong>
+                            </div>
+                            <t t-if="o.payment_type=='outbound'">
+                                <div style="text-align:left;padding-left:25px;" >
+                                    <strong>
+                                        N° de carte d'identité ou de séjour pour les étrangers:
+                                        <t t-if="o.partner_id.company_type=='person'">
+                                            <span t-field="o.partner_id.vat"/>
+                                        </t>
+                                    </strong>
+                                </div>
+                                <div style="text-align:right;padding-right:25px;">
+                                    <strong>
+                                        Matricule Fiscal:
+                                        <t t-if="o.partner_id.company_type=='company'">
+                                            <span t-field="o.partner_id.vat"/>
+                                        </t>
+                                    </strong>
+                                </div>
+                                <div style="padding:10px">
+                                    Nom, prénom ou raison social:
+                                    <span style="font-weight: bold;">
+                                        <t t-esc="o.partner_id.name"/>
+                                    </span>
+                                </div>
+                                <div style="padding:10px">
+                                    <strong>
+                                        Adresse: <span t-field="o.partner_id.street"/>
+                                        , <span t-field="o.partner_id.street2"/>
+                                        <span t-field="o.partner_id.city"/>
+                                        - <span t-field="o.partner_id.zip"/>
+                                        - <span t-field="o.partner_id.state_id.name"/>
+                                    </strong>
+                                </div>
+                            </t>
+                             <t t-if="o.payment_type=='inbound'">
+                                <div class="text-left" >
+                                    <strong>N° de carte d'identité ou de séjour pour les étrangers:
+
+                                    </strong>
+                                </div>
+                                <div class="text-center" >
+                                    <strong>Matricule Fiscal:
+                                        <span t-field="o.company_id.vat"/>
+                                    </strong>
+                                </div>
+                                <div style="padding:10px">
+                                    Nom, prénom ou raison social:
+                                    <span style="font-weight: bold;">
+                                        <t t-esc="o.company_id.name"/>
+                                    </span>
+                                </div>
+                                <div style="padding:10px">
+                                    <strong>
+                                        Adresse: <span t-field="o.company_id.street"/>
+                                        , <span t-field="o.company_id.street2"/>
+                                        <span t-field="o.company_id.city"/>
+                                        - <span t-field="o.company_id.zip"/>
+                                        - <span t-field="o.company_id.state_id.name"/>
+                                    </strong>
+                                </div>
+                            </t>
+                            <div style="text-align:center;">
+                                <div>Je soussigné, certifie exacts les rensrignements figurant sur le présent</div>
+                                <div>certificat et m'expose aux sanctions prévues par la loi pour toute inexactude.</div>
+                                <br/>
+                                <div>A <span t-field="o.company_id.city"/>, le <span t-field="o.date"/> </div>
+                                <div>cachet et signature du payeur</div>
+                                 <br/>
+                                <t t-if="o.signature">
+                                    <div>
+                                        <img t-att-src="'data:image/png;base64,%s' % to_text(o.signature)" style="max-height: 150px;"/>
+                                    </div>
+                                </t>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+     <template id="report_rs_print">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-set="lang" t-value="o.partner_id.lang or o.company_id.partner_id.lang"/>
+                <t t-call="rs_certificate.report_rs_print_document" t-lang="lang"/>
+            </t>
+        </t>
+    </template>
+
+<!--    <report-->
+<!--        id="action_rs_print_report" -->
+<!--        string="Print RS"-->
+<!--         model="account.payment"-->
+<!--         report_type="qweb-pdf"-->
+<!--         name="rs_certificate.report_rs_print"-->
+<!--         file="rs_certificate.report_rs_print"-->
+<!--         menu="False"-->
+<!--         print_report_name="'Print RS- %s' % (object.name)"-->
+<!--         paperformat="paperformat_rs_no_margin"-->
+<!--    />-->
+
+    <record id="action_rs_print_report" model="ir.actions.report">
+        <field name="name">Print RS</field>
+        <field name="model">account.payment</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">rs_certificate.report_rs_print</field>
+        <field name="report_file">rs_certificate.report_rs_print</field>
+         <field name="binding_model_id" eval="False"/>
+        <field name="print_report_name">'Print RS- %s' % (object.name)</field>
+        <field name="binding_type">report</field>
+        <field name="paperformat_id" ref="paperformat_rs_no_margin"/>
+    </record>
+
+    <record id="action_rs_preview_report" model="ir.actions.report">
+        <field name="name">Print RS</field>
+        <field name="model">account.payment</field>
+        <field name="report_type">qweb-html</field>
+        <field name="report_name">rs_certificate.report_rs_print</field>
+        <field name="report_file">rs_certificate.report_rs_print</field>
+         <field name="binding_model_id" eval="False"/>
+        <field name="binding_type">report</field>
+        <field name="paperformat_id" ref="paperformat_rs_no_margin"/>
+    </record>
+
+
+<!--    <report-->
+<!--        id="action_rs_preview_report" -->
+<!--        string="Print RS"-->
+<!--         model="account.payment"-->
+<!--         report_type="qweb-html"-->
+<!--         name="rs_certificate.report_rs_print"-->
+<!--         file="rs_certificate.report_rs_print"-->
+<!--         menu="False"-->
+<!--         print_report_name="'Print RS- %s' % (object.name)"-->
+<!--    />-->
+</odoo>
